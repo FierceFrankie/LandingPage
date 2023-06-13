@@ -1,17 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
-}
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
 
-h1 {
-    margin-bottom: 0px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
+
 
 a {
     text-decoration: none;
@@ -20,32 +21,29 @@ a {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     background-color: #1f2937;
-    flex: 1 1 0;
 }
 
 .header-logo {
     display: flex;
     margin-left: 100px;
     margin-top: 10px;
-    justify-content: center;
     margin-right: auto;
 }
 
 .hero {
     display: flex;
     background-color: #1f2937;
-    flex: 1 1 auto;
+    flex: 1;
     align-items: center;
     justify-content: center;
 }
 
-.hero-image {
-    
-}
-
-.hero-1 {
+.hero-text {
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
 
 }
 
@@ -56,16 +54,15 @@ a {
 }
 
 .call-to-action {
-    flex: 1 1 0;
+    align-items:center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #e5e7eb;
 }
 
 .content-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
     
 }
 
@@ -80,19 +77,40 @@ a {
 .pics {
     border: 4px solid #3882f6;
     border-radius: 8px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .cta-banner {
     background-color: #3882f6;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
     display: flex;
 }
 
+.sign-button {
+    margin-top: 40px;
+}
 
 .bottom {
-    flex: 1 1 0;
+    flex: 1;
     background-color: #1f2937;
     text-align: center;
     font-size: smaller;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
