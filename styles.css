@@ -51,6 +51,7 @@ a {
     background-color: #e5e7eb;
     flex: 1 1 auto;
     padding: 0 200px;
+    display: flex;
 }
 
 .call-to-action {
@@ -115,4 +116,18 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.quotation b {
+    align-self: flex-end;
+}
+
+.quotation p {
+    justify-self: center;
+    align-self: center;
+    width: 300px;
+}
+
+.quotation {
+    justify-content: center;
 }
