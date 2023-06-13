@@ -85,8 +85,8 @@ a {
 
 .cta-banner {
     background-color: #3882f6;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-left: 500px;
     margin-right: 500px;
     margin-top: 30px;
@@ -96,7 +96,9 @@ a {
 }
 
 .sign-button {
-    margin-top: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
 }
 
 .bottom {
