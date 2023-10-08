@@ -17,7 +17,6 @@ body {
 /* unvisited link */
 a:link {
   color: red;
-  text-decoration: none;
 }
 
 /* visited link */
