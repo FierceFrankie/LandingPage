@@ -167,3 +167,7 @@ li {
     font-size: smaller;
     font-weight: lighter;
 }
+ul {
+    list-style: none;
+}
+    
