@@ -89,3 +89,10 @@ a#pdf:hover { background: #222; }
     position:absolute;
     left: -25px;
 }
+.profile-pic {
+    padding-left: px;
+    padding-top: 0px;
+    position:absolute;
+    top: -70px;
+    left: 175px;
+}
