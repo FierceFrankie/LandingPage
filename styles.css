@@ -173,29 +173,29 @@ li {
 ul {
     list-style: none;
 }
-    .summary {
-        font-size: 15px;
-        border: #1f2937;
-        border-width: 1px;
-        border-style: solid;
-        width: 80%;
-        align-self: center;
-        justify-self: center;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        padding-left: 10px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    .contact {
-        position: absolute;
-        left: 10px;
-        top: -10px;
-    }
-    .meeting-button {
-        margin-top: 2px;
-        margin-bottom: 2px;
-        margin-left: 100px;
-    }
+.summary {
+    font-size: 15px;
+    border: #1f2937;
+    border-width: 1px;
+    border-style: solid;
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+.meeting-button {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 100px;
+}
 .static {
   background: white;
   padding-left: auto;
