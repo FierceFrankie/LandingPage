@@ -97,6 +97,8 @@ a:active {
     align-content: center;
     margin-left: 60px;
     margin-right: 60px;
+    padding-right: 20px;
+    padding-left: 0px;
 }
 
 .cta-banner {
@@ -142,10 +144,10 @@ a:active {
 .quotation p {
     justify-self: center;
     align-self: center;
-    font-style: italic;
-    font-size: 20px;
-    padding-left: 200px;
-    padding-right: 40px;
+    font-style: normal;
+    font-size: 14px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .quotation {
@@ -180,7 +182,8 @@ ul {
         align-self: center;
         justify-self: center;
         margin-bottom: 10px;
-        margin-top: -10px;
+        margin-top: 10px;
+        padding-left: 10px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .contact {
@@ -193,3 +196,11 @@ ul {
         margin-bottom: 2px;
         margin-left: 100px;
     }
+.static {
+  background: white;
+  padding-left: auto;
+  position: absolute;
+}
+
+.static:hover {
+  opacity:0;
