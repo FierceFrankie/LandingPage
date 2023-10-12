@@ -1,16 +1,3 @@
-/*
----------------------------------------------------------------------------------
-	STRIPPED DOWN RESUME TEMPLATE
-    html resume
-
-    v0.9: 5/28/09
-
-    design and code by: thingsthatarebrown.com 
-                        (matt brown)
----------------------------------------------------------------------------------
-*/
-
-
 .msg { padding: 10px; background: #222; position: relative; }
 .msg h1 { color: #fff;  }
 .msg a { margin-left: 20px; background: #408814; color: white; padding: 4px 8px; text-decoration: none; }
@@ -32,7 +19,7 @@ body { font-family: Georgia; color: #444; }
 
 /* //-- core typography and style -- */
 #hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
-h2 { font-size: 152%; margin-bottom: 7px;}
+h2 { font-size: 150%; margin-bottom: 7px;}
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
 p { font-size: 100%; line-height: 18px; padding-right: 3em; }
@@ -52,9 +39,9 @@ p.enlarge span { color: #000 }
 a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
 a#pdf:hover { background: #222; }
 
-.job { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
+.job { position: relative; margin-bottom: 0.5em; padding-bottom: 0.5em; border-bottom: 1px solid #ccc; }
 .job h4 { position: absolute; top: 0.35em; right: 0 }
-.job p { margin: 0.75em 0 2em 0; }
+.job p { margin: 0.75em 0 1px 0; }
 
 .last { border: none; }
 .skills-list {  }
@@ -69,7 +56,9 @@ a#pdf:hover { background: #222; }
 
 /* --// override to force 1/8th width grids -- */
 .yui-gf .yui-u{width:80.2%;}
-.yui-gf div.first{width:12.3%;}
+.yui-gf div.first {
+    width: 13.3%;
+}
 
 .mail {
     padding-left: px;
