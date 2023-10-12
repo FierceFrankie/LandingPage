@@ -19,7 +19,7 @@ body { font-family: Georgia; color: #444; }
 
 /* //-- core typography and style -- */
 #hd h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
-h2 { font-size: 152%; margin-bottom: 7px;}
+h2 { font-size: 150%; margin-bottom: 7px;}
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
 p { font-size: 100%; line-height: 18px; padding-right: 3em; }
@@ -57,7 +57,7 @@ a#pdf:hover { background: #222; }
 /* --// override to force 1/8th width grids -- */
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first {
-    width: 14.3%;
+    width: 13.3%;
 }
 
 .mail {
