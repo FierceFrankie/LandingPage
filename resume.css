@@ -85,3 +85,6 @@ a#pdf:hover { background: #222; }
     top: -70px;
     left: 175px;
 }
+.titles {
+    font-size: 82%;
+}
